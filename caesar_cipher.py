@@ -2,7 +2,7 @@ def cifra_cesar(texto, deslocamento):
     resultado = ""
 
     for caractere in texto:
-        if caractere.isalpha():
+        if 'A' <= caractere <= 'Z' or 'a' <= caractere <= 'z':
             base = ord('A') if caractere.isupper() else ord('a')
 
             novo_caractere = chr(
