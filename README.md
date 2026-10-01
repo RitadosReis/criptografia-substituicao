@@ -1,12 +1,15 @@
 # Atividade - Algoritmos de Substituição
 
-Este projeto apresenta uma implementação prática da Cifra de César em Python.
+Este projeto apresenta duas implementações práticas de algoritmos clássicos de criptografia por substituição utilizando Python:
 
-## O que é a Cifra de César?
+- Cifra de César
+- Cifra de Substituição Simples
 
-A Cifra de César é um algoritmo clássico de substituição.
+O objetivo da atividade é demonstrar, na prática, como diferentes técnicas de substituição podem ser utilizadas para transformar uma mensagem original em uma mensagem cifrada.
 
-Ela funciona deslocando cada letra do texto por uma quantidade fixa de posições no alfabeto.
+## 1. Cifra de César
+
+A Cifra de César é um algoritmo clássico de substituição que desloca cada letra do alfabeto por uma quantidade fixa de posições.
 
 Exemplo com deslocamento 3:
 
@@ -22,17 +25,14 @@ se transforma em:
 
 FDVD
 
-## Funcionamento do programa
+No programa, o usuário informa:
 
-O programa:
+1. A mensagem que deseja criptografar.
+2. O valor do deslocamento.
 
-1. Solicita uma mensagem.
-2. Solicita uma chave de deslocamento.
-3. Criptografa a mensagem.
-4. Exibe a mensagem cifrada.
-5. Descriptografa a mensagem novamente.
+O programa realiza a criptografia e, em seguida, a descriptografia da mensagem.
 
-## Exemplo
+### Exemplo
 
 Mensagem original:
 
@@ -46,9 +46,22 @@ Mensagem cifrada:
 
 VHJXUDQFD
 
-## Observação
+Mensagem decifrada:
 
-A Cifra de César é usada apenas para fins educacionais.
+SEGURANCA
 
-Ela não é considerada segura para proteger informações reais, pois possui poucas possibilidades de chave e pode ser quebrada facilmente.
+Arquivo utilizado:
 
+`caesar_cipher.py`
+
+---
+
+## 2. Cifra de Substituição Simples
+
+Na Cifra de Substituição Simples, cada letra do alfabeto é substituída por outra letra de acordo com uma chave previamente definida.
+
+Neste projeto foi utilizada a seguinte associação:
+
+```text
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+QWERTYUIOPASDFGHJKLZXCVBNM
