@@ -51,3 +51,4 @@ VHJXUDQFD
 A Cifra de César é usada apenas para fins educacionais.
 
 Ela não é considerada segura para proteger informações reais, pois possui poucas possibilidades de chave e pode ser quebrada facilmente.
+
